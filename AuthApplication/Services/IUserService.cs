@@ -9,5 +9,6 @@ namespace AuthApplication.Services
     public interface IUserService
     {
         User Authenticate(string username, string password);
+        List<User> GetAllUsers();
     }
 }
